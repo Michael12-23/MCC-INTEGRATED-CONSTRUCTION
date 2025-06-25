@@ -17,51 +17,71 @@
 </head>
 
 <body>
+    <!-- nav-bar -->
+    <nav class="navbar navbar-expand-lg bg-transparent fixed-top py-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto fs-4 mb-2 mb-lg-0">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link active text-light" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-light" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-light" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-light" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-light" href="#">TEAM</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-light" href="#">CONTACT</a>
+                    </li>
 
 
-    <nav class="nav-bar">
+                </ul>
 
-        <ul>
-            <li>
-                <a href="HOME">HOME</a>
-            </li>
-            <li>
-                <a href="ABOUT US">ABOUT US</a>
-            </li>
 
-            <li>
-                <a href="SERVICES">SERVICES</a>
-            </li>
-            <li>
-                <a href="GALLARY">GALLARY</a>
-            </li>
-            <li>
-                <a href="TEAM">TEAM</a>
-            </li>
-
-            <li>
-                <a href="CONTACT">CONTACT</a>
-            </li>
-        </ul>
-
+            </div>
+        </div>
     </nav>
 
+
     <main>
-        <section class="home-section">
-            <div class="logo">
-                <span class="mcc-logo">
-                    <img src="./asset/LOGO-MCC.jpg" width="160px" id="logo">
-                    MCC INTEGRATED CONSTRUCTION
-                </span>
-
-
+        <section class="container-fluid home-section px-5">
+            <div class="row justify-content-center">
+                <div class="container logo col-lg-6  col-sm-12">
+                    <span class="mcc-logo d-flex align-items-center d-none d-md-block">
+                        <img src="./asset/LOGO-MCC.jpg" width="160px" id="logo" class="img-fluid ">
+                        MCC INTEGRATED CONSTRUCTION
+                    </span>
+                    <span class=" d-flex flex-column text-light d-sm-block d-md-none">
+                        <img src="./asset/LOGO-MCC.jpg" width="160px" id="logo" class="img-fluid mx-auto">
+                        <span class="mcc-logo w-75 fs-4 text-center mx-auto my-2">MCC INTEGRATED CONSTRUCTION</span>
+                    </span>
+                </div>
+                <div class="container">
+                    <p class="home-paragraph text-light text-center w-50 mx-auto d-none d-md-block">
+                        MCC is an engineering company that specializes in building and rebuilding projects such as
+                        private
+                        residences, commercial buildings, hotels, and real estate developments.
+                    </p>
+                    <p class="home-paragraph text-light text-center d-sm-block d-md-none">
+                        MCC is an engineering company that specializes in building and rebuilding projects such as
+                        private
+                        residences, commercial buildings, hotels, and real estate developments.
+                    </p>
+                </div>
             </div>
-            <div>
-                <p class="home-paragraph">
-                    MCC is an engineering company that specializes in building and rebuilding projects such as private
-                    residences, commercial buildings, hotels, and real estate developments.
-                </p>
-            </div>
+
         </section>
     </main>
 
